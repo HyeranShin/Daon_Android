@@ -1,0 +1,26 @@
+<resources>
+
+    <!--activity_first_start-->
+    <string name="btn_name_rcmd_first_start">Name Recommendation</string>
+    <string name="tv_guide_first_start">You \ndo not have \na Korean name yet.</string>
+
+    <!--activity_info_enter-->
+    <string name="tv_guide_info_enter">I\'ll recommend \na matching name!</string>
+    <string name="btn_next_info_enter">Next</string>
+
+    <!--activity_after_order-->
+    <string name="tv_big_guide_after_order">We are making \nKim Gaon\'s \nname card.</string>
+    <string name="tv_small_guide_after_order">Wait a minute please :)</string>
+    <string name="btn_view_card_after_order">View my name card</string>
+    <string name="btn_map_after_order">Place of receipt</string>
+
+    <!--activity_name_rcmd-->
+    <string name="tv_big_guide_name_rcmd">Recommended\nNames</string>
+    <string name="tv_small_guide_name_rcmd">: They are pure Korean words.</string>
+    <string name="btn_selected_name_rcmd">Selected</string>
+    <string name="btn_rcmd_again_name_rcmd">Recommend Again</string>
+    <string name="tv_no_fav_name_name_rcmd">Do not have a favorite name?</string>
+    <string name="tv_check_guide_name_rcmd">Is the name\nyou chose?</string>
+    <string name="btn_yes_name_rcmd">Yes</string>
+    <string name="btn_no_name_rcmd">No</string>
+</resources>

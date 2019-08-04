@@ -1,3 +1,27 @@
 <resources>
-    <string name="app_name">Daon</string>
+    <string name="app_name" translatable="false">다온(Daon)</string>
+
+    <!--activity_first_start-->
+    <string name="btn_name_rcmd_first_start">이름 추천</string>
+    <string name="tv_guide_first_start">아직 \n한글이름이 \n없네요.</string>
+
+    <!--activity_info_enter-->
+    <string name="tv_guide_info_enter">어울리는 이름을\n추천해 드릴게요!</string>
+    <string name="btn_next_info_enter">다음</string>
+
+    <!--activity_after_order-->
+    <string name="tv_big_guide_after_order">김가온님의 \n명함을 \n제작하고 있어요.</string>
+    <string name="tv_small_guide_after_order">조금만 기다려 주세요 :)</string>
+    <string name="btn_view_card_after_order">내 명함 보기</string>
+    <string name="btn_map_after_order">수령 장소 안내</string>
+
+    <!--activity_name_rcmd-->
+    <string name="tv_big_guide_name_rcmd">이름 추천</string>
+    <string name="tv_small_guide_name_rcmd">: 순 우리말 이름입니다.</string>
+    <string name="btn_selected_name_rcmd">선택 완료</string>
+    <string name="btn_rcmd_again_name_rcmd">다시 추천받기</string>
+    <string name="tv_no_fav_name_name_rcmd">마음에 드는 이름이 없나요?</string>
+    <string name="tv_check_guide_name_rcmd">선택한 이름이\n맞나요?</string>
+    <string name="btn_yes_name_rcmd">예</string>
+    <string name="btn_no_name_rcmd">아니요</string>
 </resources>
