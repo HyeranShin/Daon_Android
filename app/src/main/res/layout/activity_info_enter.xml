@@ -49,10 +49,15 @@
                     android:layout_height="match_parent" android:layout_weight="1" android:layout_marginRight="3dp">
                 <EditText
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
                         android:inputType="number"
                         android:ems="10"
                         android:maxLength="2"
+                        android:gravity="right"
+                        android:includeFontPadding="false"
+                        android:fontFamily="@font/notosanscjkkr_medium" android:textSize="23sp"
+                        android:textColor="@color/mainColor"
                         android:id="@+id/editText" android:layout_weight="1" android:background="@null"/>
                 <TextView
                         android:text="@string/tv_month_info_enter"
@@ -70,10 +75,15 @@
                     android:layout_weight="1" android:layout_marginLeft="3dp">
                 <EditText
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
                         android:inputType="number"
                         android:ems="10"
+                        android:gravity="right"
+                        android:includeFontPadding="false"
                         android:maxLength="2"
+                        android:fontFamily="@font/notosanscjkkr_medium" android:textSize="23sp"
+                        android:textColor="@color/mainColor"
                         android:id="@+id/editText2" android:layout_weight="1" android:background="@null"/>
                 <TextView
                         android:text="@string/tv_day_info_enter"
