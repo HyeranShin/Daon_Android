@@ -7,6 +7,12 @@
     <!--activity_info_enter-->
     <string name="tv_guide_info_enter">I\'ll recommend \na matching name!</string>
     <string name="btn_next_info_enter">Next</string>
+    <string name="tv_gender_info_enter">Gender</string>
+    <string name="tv_male_info_enter">M</string>
+    <string name="tv_female_info_enter">F</string>
+    <string name="tv_birthday_info_enter">Birth Day</string>
+    <string name="tv_month_info_enter">M</string>
+    <string name="tv_day_info_enter">D</string>
 
     <!--activity_after_order-->
     <string name="tv_big_guide_after_order">We are making \nKim Gaon\'s \nname card.</string>

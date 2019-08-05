@@ -8,6 +8,12 @@
     <!--activity_info_enter-->
     <string name="tv_guide_info_enter">어울리는 이름을\n추천해 드릴게요!</string>
     <string name="btn_next_info_enter">다음</string>
+    <string name="tv_gender_info_enter">성별</string>
+    <string name="tv_male_info_enter">남</string>
+    <string name="tv_female_info_enter">여</string>
+    <string name="tv_birthday_info_enter">생일</string>
+    <string name="tv_month_info_enter">월</string>
+    <string name="tv_day_info_enter">일</string>
 
     <!--activity_after_order-->
     <string name="tv_big_guide_after_order">김가온님의 \n명함을 \n제작하고 있어요.</string>
