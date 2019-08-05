@@ -8,10 +8,8 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageButton
 import android.widget.TextView
-import android.widget.Toast
 import androidx.recyclerview.widget.RecyclerView
 import com.example.daon.model.NameVO
-import com.google.android.material.snackbar.Snackbar
 import java.util.*
 import kotlin.collections.ArrayList
 
@@ -34,7 +32,7 @@ class NameAdapter(private val ctx: Context, val nameItems: ArrayList<NameVO>): R
     override fun onBindViewHolder(holder: Holder, position: Int) {
         holder.name.text = nameItems[position].name
         holder.pronunciation.text = nameItems[position].pronunciation
-
+        //TODO 언어에 따라 meaning text 세팅
         //TODO 클릭 시 UI 변경
         //TODO 데이터 전달
         holder.soundIcon.setOnClickListener {
