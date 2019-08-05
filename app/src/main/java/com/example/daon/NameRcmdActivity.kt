@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.example.daon.controller.SharedPreferenceController
 import com.example.daon.model.NameVO
 import kotlinx.android.synthetic.main.activity_name_rcmd.*
 import org.jetbrains.anko.startActivity
@@ -33,7 +34,8 @@ class NameRcmdActivity : AppCompatActivity() {
             layout_check_selected_name_name_rcmd.visibility = View.VISIBLE
         }
         btn_yes_name_rcmdc.setOnClickListener {
-            startActivity<AfterOrderActivity>()
+            SharedPreferenceController.setName(this, tv_ko_name_name_rcmd.text.toString())
+            startActivity<RecipientInfoActivity>()
         }
         btn_no_name_rcmd.setOnClickListener {
             layout_check_selected_name_name_rcmd.visibility = View.INVISIBLE

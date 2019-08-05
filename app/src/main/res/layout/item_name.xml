@@ -29,8 +29,8 @@
             android:layout_height="wrap_content" android:id="@+id/tv_en_name_item_name"
             android:textColor="@color/darkGray" android:includeFontPadding="false"
             android:fontFamily="@font/notosanscjkkr_bold" android:textSize="17sp"
-            app:layout_constraintStart_toEndOf="@+id/tv_ko_name_item_name"
-            app:layout_constraintBottom_toBottomOf="@+id/tv_ko_name_item_name" android:layout_marginStart="15dp"
+            app:layout_constraintStart_toEndOf="@+id/tv_ko_name_name_rcmd"
+            app:layout_constraintBottom_toBottomOf="@+id/tv_ko_name_name_rcmd" android:layout_marginStart="15dp"
             android:layout_marginBottom="5dp"/>
     <TextView
             android:text="세상의 중심이 되어라"
