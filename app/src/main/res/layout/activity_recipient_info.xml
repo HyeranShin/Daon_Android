@@ -14,7 +14,7 @@
             android:layout_height="wrap_content"
             android:id="@+id/tv_big_guide_recipient_info"
             android:includeFontPadding="false" android:fontFamily="@font/notosanscjkkr_bold" android:textSize="41sp"
-            android:textColor="@color/mainColor"
+            android:textColor="@color/fontGray"
             app:layout_constraintTop_toTopOf="parent" app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent" android:layout_marginTop="27dp"/>
     <TextView
@@ -23,7 +23,7 @@
             android:layout_height="wrap_content"
             android:id="@+id/tv_small_guide_recipient_info"
             app:layout_constraintTop_toBottomOf="@+id/tv_big_guide_recipient_info" android:layout_marginTop="4dp"
-            android:textColor="@color/mainColor" android:textSize="15sp"
+            android:textColor="@color/fontGray" android:textSize="15sp"
             android:fontFamily="@font/notosanscjkkr_demilight" android:includeFontPadding="false"
             app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"
             app:lineHeight="22sp" android:textAlignment="center"/>
@@ -60,7 +60,7 @@
                     android:gravity="center"
                     android:background="@android:color/transparent" android:textAlignment="center"
                     android:fontFamily="@font/notosanscjkkr_medium" android:textSize="25sp"
-                    android:textColor="@color/mainColor"
+                    android:textColor="@color/darkGray"
                     app:layout_constraintStart_toStartOf="parent" app:layout_constraintBottom_toBottomOf="parent"/>
         </androidx.constraintlayout.widget.ConstraintLayout>
         <LinearLayout
@@ -75,7 +75,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content" android:id="@+id/tv_phone_recipient_info"
                     android:layout_weight="1" android:fontFamily="@font/notosanscjkkr_medium"
-                    android:textColor="@color/mainColor" android:textSize="25sp" android:includeFontPadding="false"/>
+                    android:textColor="@color/fontGray" android:textSize="25sp" android:includeFontPadding="false"/>
             <TextView
                     android:text="@string/tv_4digits_recipient_info"
                     android:layout_width="wrap_content"
@@ -83,7 +83,7 @@
                     android:layout_weight="1"
                     android:layout_gravity="bottom" android:includeFontPadding="false"
                     android:fontFamily="@font/notosanscjkkr_medium" android:textSize="13sp"
-                    android:textColor="@color/mainColor"/>
+                    android:textColor="@color/fontGray"/>
         </LinearLayout>
         <EditText
                 android:layout_width="205dp"
@@ -98,14 +98,14 @@
                 app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"
                 android:background="@drawable/round_21_light_gray" android:textAlignment="center"
                 android:fontFamily="@font/notosanscjkkr_medium" android:textSize="25sp"
-                android:textColor="@color/mainColor"
+                android:textColor="@color/darkGray"
                 app:layout_constraintTop_toBottomOf="@+id/linearLayout3" android:layout_marginTop="16dp"/>
         <TextView
                 android:text="@string/tv_name_recipient_info"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/tv_name_recipient_info"
-                android:fontFamily="@font/notosanscjkkr_medium" android:textColor="@color/mainColor"
+                android:fontFamily="@font/notosanscjkkr_medium" android:textColor="@color/fontGray"
                 android:textSize="25sp" android:includeFontPadding="false"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent"/>

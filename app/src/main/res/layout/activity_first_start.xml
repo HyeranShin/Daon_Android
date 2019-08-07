@@ -8,20 +8,22 @@
         android:background="#FFFFFF"
         tools:context=".FirstStartActivity" android:id="@+id/tv_guide_first_start">
 
-    <Button android:layout_width="match_parent" android:layout_height="71dp"
-            android:background="@color/mainColor" android:lineHeight="41sp"
+    <Button android:layout_width="276dp" android:layout_height="59dp"
+            android:background="@drawable/round_5_main_color" android:lineHeight="41sp"
             android:textAllCaps="false"
             app:layout_constraintBottom_toBottomOf="parent" android:text="@string/btn_name_rcmd_first_start"
-            tools:layout_editor_absoluteX="0dp" android:textSize="30sp" android:textColor="#FFFFFF"
+            android:textSize="27sp" android:textColor="#FFFFFF"
             android:id="@+id/btn_name_rcmd_first_start" android:fontFamily="@font/notosanscjkkr_regular"
-            android:gravity="center" android:includeFontPadding="false"/>
+            android:gravity="center" android:includeFontPadding="false" android:layout_marginEnd="8dp"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginStart="8dp"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginBottom="60dp"/>
     <TextView
             android:text="@string/tv_guide_first_start"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/textView" android:layout_marginTop="131dp"
             app:layout_constraintTop_toTopOf="parent" app:layout_constraintStart_toStartOf="parent"
-            android:layout_marginStart="42dp" android:textColor="@color/mainColor"
+            android:layout_marginStart="42dp" android:textColor="@color/fontGray"
             android:fontFamily="@font/notosanscjkkr_bold" android:textSize="36sp" app:lineHeight="54sp"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
