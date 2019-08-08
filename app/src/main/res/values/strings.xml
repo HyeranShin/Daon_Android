@@ -30,7 +30,7 @@
     <string name="tv_check_guide_name_rcmd">선택한 이름이\n맞나요?</string>
     <string name="btn_yes_name_rcmd">예</string>
     <string name="btn_no_name_rcmd">아니요</string>
-    
+
     <!--    Recipient Info Activity -->
     <string name="tv_big_guide_recipient_info">수령인 정보</string>
     <string name="tv_small_guide_recipient_info">: 명함 수령인의\n정보를 알려주세요.</string>
@@ -38,4 +38,25 @@
     <string name="tv_phone_recipient_info">핸드폰 뒷번호</string>
     <string name="tv_4digits_recipient_info">(4자리)</string>
     <string name="tv_complete_recipient_info">입력 완료</string>
+
+    <!--    Pick Up Loc Activity    -->
+    <string name="tv_big_guide_pick_up_loc">수령 장소</string>
+    <string name="tv_small_guide_pick_up_loc">: 명함 수령 장소를\n선택해주세요.</string>
+    <string name="tv_complete_pick_up_loc">선택 완료</string>
+    <string name="tv_area1_1_pick_up_loc">제1 여객터미널</string>
+    <string name="tv_area1_2_pick_up_loc">1층 입국장</string>
+    <string name="tv_area1_3_pick_up_loc">1층 4번 출구</string>
+    <string name="tv_area1_4_pick_up_loc">다온 명함 수령센터</string>
+    <string name="tv_area2_1_pick_up_loc">제1 여객터미널</string>
+    <string name="tv_area2_2_pick_up_loc">3층 출국장</string>
+    <string name="tv_area2_3_pick_up_loc">3층 F 카운터 부근</string>
+    <string name="tv_area2_4_pick_up_loc">다온 명함 수령센터</string>
+    <string name="tv_area3_1_pick_up_loc">제2 여객터미널</string>
+    <string name="tv_area3_2_pick_up_loc">1층 입국장</string>
+    <string name="tv_area3_3_pick_up_loc">1층 2번 출구</string>
+    <string name="tv_area3_4_pick_up_loc">다온 명함 수령센터</string>
+    <string name="tv_area4_1_pick_up_loc">제2 여객터미널</string>
+    <string name="tv_area4_2_pick_up_loc">3층 출국장</string>
+    <string name="tv_area4_3_pick_up_loc">3층 F 카운터 부근</string>
+    <string name="tv_area4_4_pick_up_loc">다온 명함 수령센터</string>
 </resources>

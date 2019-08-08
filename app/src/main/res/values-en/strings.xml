@@ -37,4 +37,9 @@
     <string name="tv_phone_recipient_info">Cell phone back number</string>
     <string name="tv_4digits_recipient_info">(4digits)</string>
     <string name="tv_complete_recipient_info">Complete</string>
+
+    <!--    Pick Up Loc Activity    -->
+    <string name="tv_big_guide_pick_up_loc">Pick Up Location</string>
+    <string name="tv_small_guide_pick_up_loc">: Please select\na pick up location.</string>
+    <string name="tv_complete_pick_up_loc">Complete</string>
 </resources>
