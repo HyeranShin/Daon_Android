@@ -42,4 +42,20 @@
     <string name="tv_big_guide_pick_up_loc">Pick Up Location</string>
     <string name="tv_small_guide_pick_up_loc">: Please select\na pick up location.</string>
     <string name="tv_complete_pick_up_loc">Complete</string>
+    <string name="tv_area1_1_pick_up_loc">1st Passenger Terminal</string>
+    <string name="tv_area1_2_pick_up_loc">1st floor Arrival Hall</string>
+    <string name="tv_area1_3_pick_up_loc">1st floor, Exit 4</string>
+    <string name="tv_area1_4_pick_up_loc">Daon Name Card Receiving Center</string>
+    <string name="tv_area2_1_pick_up_loc">1st Passenger Terminal</string>
+    <string name="tv_area2_2_pick_up_loc">3rd floor Departure Hall</string>
+    <string name="tv_area2_3_pick_up_loc">Near the 3rd floor F Counter</string>
+    <string name="tv_area2_4_pick_up_loc">Daon Name Card Receiving Center</string>
+    <string name="tv_area3_1_pick_up_loc">2nd Passenger Terminal</string>
+    <string name="tv_area3_2_pick_up_loc">1st floor Arrival Hall</string>
+    <string name="tv_area3_3_pick_up_loc">1st floor, Exit 2</string>
+    <string name="tv_area3_4_pick_up_loc">Daon Name Card Receiving Center</string>
+    <string name="tv_area4_1_pick_up_loc">2nd Passenger Terminal</string>
+    <string name="tv_area4_2_pick_up_loc">3rd floor Departure Hall</string>
+    <string name="tv_area4_3_pick_up_loc">Near the 3rd floor F Counter</string>
+    <string name="tv_area4_4_pick_up_loc">Daon Name Card Receiving Center</string>
 </resources>
