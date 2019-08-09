@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.text.Editable
 import android.text.TextWatcher
+import com.example.daon.controller.SharedPreferenceController
 import kotlinx.android.synthetic.main.activity_recipient_info.*
 import org.jetbrains.anko.startActivity
 
@@ -14,10 +15,15 @@ class RecipientInfoActivity : AppCompatActivity() {
         setContentView(R.layout.activity_recipient_info)
 
         setOnClickListener()
+
+        tv_complete_recipient_info.isClickable = false
+        tv_complete_recipient_info.setBackgroundColor(resources.getColor(R.color.darkGray))
     }
 
     private fun setOnClickListener() {
         tv_complete_recipient_info.setOnClickListener {
+            SharedPreferenceController.setRecipientName(this, et_name_recipient_info.text.toString())
+            SharedPreferenceController.setRecipientPhone(this, et_phone_recipient_info.text.toString())
             startActivity<AfterOrderActivity>()
         }
         et_name_recipient_info.addTextChangedListener(object: TextWatcher {
