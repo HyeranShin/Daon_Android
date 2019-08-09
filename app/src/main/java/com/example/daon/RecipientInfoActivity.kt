@@ -41,7 +41,34 @@ class RecipientInfoActivity : AppCompatActivity() {
                     et_name_recipient_info.setText(previousString)
                     et_name_recipient_info.setSelection(et_name_recipient_info.length())
                 }
+                if(et_phone_recipient_info.text.toString().length == 4 && p0!!.isNotEmpty()) {
+                    tv_complete_recipient_info.isClickable = true
+                    tv_complete_recipient_info.setBackgroundColor(resources.getColor(R.color.mainColor))
+                }
+                else {
+                    tv_complete_recipient_info.isClickable = false
+                    tv_complete_recipient_info.setBackgroundColor(resources.getColor(R.color.darkGray))
+                }
             }
+        })
+        et_phone_recipient_info.addTextChangedListener(object: TextWatcher {
+            override fun afterTextChanged(p0: Editable?) {
+            }
+
+            override fun beforeTextChanged(p0: CharSequence?, p1: Int, p2: Int, p3: Int) {
+            }
+
+            override fun onTextChanged(p0: CharSequence?, p1: Int, p2: Int, p3: Int) {
+                if(p0!!.length == 4 && et_name_recipient_info.text.isNotEmpty()) {
+                    tv_complete_recipient_info.isClickable = true
+                    tv_complete_recipient_info.setBackgroundColor(resources.getColor(R.color.mainColor))
+                }
+                else {
+                    tv_complete_recipient_info.isClickable = false
+                    tv_complete_recipient_info.setBackgroundColor(resources.getColor(R.color.darkGray))
+                }
+            }
+
         })
     }
 }

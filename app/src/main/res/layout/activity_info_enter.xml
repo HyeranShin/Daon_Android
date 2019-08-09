@@ -58,7 +58,7 @@
                         android:includeFontPadding="false"
                         android:fontFamily="@font/notosanscjkkr_medium" android:textSize="23sp"
                         android:textColor="@color/darkGray"
-                        android:id="@+id/editText" android:layout_weight="1" android:background="@null"/>
+                        android:id="@+id/et_month_info_enter" android:layout_weight="1" android:background="@null"/>
                 <TextView
                         android:text="@string/tv_month_info_enter"
                         android:layout_width="wrap_content"
@@ -84,7 +84,7 @@
                         android:maxLength="2"
                         android:fontFamily="@font/notosanscjkkr_medium" android:textSize="23sp"
                         android:textColor="@color/darkGray"
-                        android:id="@+id/editText2" android:layout_weight="1" android:background="@null"/>
+                        android:id="@+id/et_day_info_enter" android:layout_weight="1" android:background="@null"/>
                 <TextView
                         android:text="@string/tv_day_info_enter"
                         android:layout_width="wrap_content"
