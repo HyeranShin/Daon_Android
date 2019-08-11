@@ -16,7 +16,16 @@
             android:id="@+id/btn_name_rcmd_first_start" android:fontFamily="@font/notosanscjkkr_regular"
             android:gravity="center" android:includeFontPadding="false" android:layout_marginEnd="8dp"
             app:layout_constraintEnd_toEndOf="parent" android:layout_marginStart="8dp"
-            app:layout_constraintStart_toStartOf="parent" android:layout_marginBottom="60dp"/>
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginBottom="106dp"/>
+    <Button android:layout_width="276dp" android:layout_height="59dp"
+            android:background="@drawable/round_5_light_gray" android:lineHeight="41sp"
+            android:textAllCaps="false"
+            app:layout_constraintBottom_toBottomOf="parent" android:text="@string/btn_already_have_first_start"
+            android:textSize="27sp" android:textColor="@color/fontGray"
+            android:id="@+id/btn_already_have_first_start" android:fontFamily="@font/notosanscjkkr_regular"
+            android:gravity="center" android:includeFontPadding="false" android:layout_marginEnd="8dp"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginStart="8dp"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginBottom="33dp"/>
     <TextView
             android:text="@string/tv_guide_first_start"
             android:layout_width="wrap_content"

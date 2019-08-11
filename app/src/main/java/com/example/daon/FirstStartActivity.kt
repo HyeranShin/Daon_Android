@@ -16,7 +16,10 @@ class FirstStartActivity : AppCompatActivity() {
 
     private fun setOnClickListener() {
         btn_name_rcmd_first_start.setOnClickListener {
-            startActivity<InfoEnterActivity>()
+            startActivity<GenderBirthInputActivity>()
+        }
+        btn_already_have_first_start.setOnClickListener {
+            startActivity<NameInputActivity>()
         }
     }
 }

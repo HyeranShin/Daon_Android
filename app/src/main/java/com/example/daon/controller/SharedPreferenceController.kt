@@ -7,6 +7,8 @@ import android.location.Location
 
 object SharedPreferenceController {
     private val NAME : String = "name"
+    private val EMAIL : String = "email"
+    private val PHONE : String = "phone"
     private val LOCATION : String = "pick up location"
     private val RECIPIENT_NAME : String = "recipient name"
     private val RECIPIENT_PHONE : String = "recipient phone"
@@ -25,6 +27,38 @@ object SharedPreferenceController {
     fun getName(ctx : Context) : String {
         val preferences : SharedPreferences = ctx.getSharedPreferences(NAME, Context.MODE_PRIVATE)
         return preferences.getString(NAME, "")!!
+    }
+
+    /**
+     * Email
+     * String
+     */
+    fun setEmail(ctx: Context, input: String) {
+        val preferences : SharedPreferences = ctx.getSharedPreferences(EMAIL, Context.MODE_PRIVATE)
+        val editor : SharedPreferences.Editor = preferences.edit()
+        editor.putString(EMAIL, input)
+        editor.commit()
+    }
+
+    fun getEmail(ctx : Context) : String {
+        val preferences : SharedPreferences = ctx.getSharedPreferences(EMAIL, Context.MODE_PRIVATE)
+        return preferences.getString(EMAIL, "")!!
+    }
+
+    /**
+     * Phone
+     * String
+     */
+    fun setPhone(ctx: Context, input: String) {
+        val preferences : SharedPreferences = ctx.getSharedPreferences(PHONE, Context.MODE_PRIVATE)
+        val editor : SharedPreferences.Editor = preferences.edit()
+        editor.putString(PHONE, input)
+        editor.commit()
+    }
+
+    fun getPhone(ctx : Context) : String {
+        val preferences : SharedPreferences = ctx.getSharedPreferences(PHONE, Context.MODE_PRIVATE)
+        return preferences.getString(PHONE, "")!!
     }
 
     /**

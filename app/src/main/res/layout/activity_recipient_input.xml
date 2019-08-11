@@ -6,7 +6,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="#FFFFFF"
-        tools:context=".RecipientInfoActivity">
+        tools:context=".RecipientInputActivity">
 
     <TextView
             android:text="@string/tv_big_guide_recipient_info"
@@ -54,7 +54,7 @@
                     android:layout_height="wrap_content"
                     android:inputType="textMultiLine|textNoSuggestions"
                     android:ems="10"
-                    android:id="@+id/et_name_recipient_info"
+                    android:id="@+id/et_name_recipient_input"
                     app:layout_constraintTop_toTopOf="parent"
                     android:includeFontPadding="false"
                     android:gravity="center"

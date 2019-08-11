@@ -9,9 +9,13 @@
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
+        <activity android:name=".EmailPhoneInputActivity">
+        </activity>
+        <activity android:name=".NameInputActivity">
+        </activity>
         <activity android:name=".PickUpLocActivity">
         </activity>
-        <activity android:name=".RecipientInfoActivity">
+        <activity android:name=".RecipientInputActivity">
         </activity>
         <activity android:name=".AfterOrderActivity">
         </activity>
@@ -24,7 +28,7 @@
         </activity>
         <activity android:name=".NameRcmdActivity">
         </activity>
-        <activity android:name=".InfoEnterActivity">
+        <activity android:name=".GenderBirthInputActivity">
         </activity>
         <activity android:name=".FirstStartActivity">
         </activity>

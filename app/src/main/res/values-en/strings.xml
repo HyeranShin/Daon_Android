@@ -1,10 +1,16 @@
 <resources>
 
-    <!--    First Start Activity    -->
+    <!--    First Start Activity        -->
     <string name="btn_name_rcmd_first_start">Name Recommendation</string>
+    <string name="btn_already_have_first_start">Already Have a Name</string>
     <string name="tv_guide_first_start">You \ndo not have \na Korean name yet.</string>
 
-    <!--    Info Enter Activity     -->
+    <!--    Name Input Activity         -->
+    <string name="tv_guide_name_input">I\'ll make a business card\nright away!</string>
+    <string name="tv_name_name_input">Name</string>
+    <string name="tv_next_name_input">Next</string>
+
+    <!--    Gender Birth Input Activity -->
     <string name="tv_guide_info_enter">I\'ll recommend \na matching name!</string>
     <string name="btn_next_info_enter">Next</string>
     <string name="tv_gender_info_enter">Gender</string>
@@ -14,13 +20,20 @@
     <string name="tv_month_info_enter">M</string>
     <string name="tv_day_info_enter">D</string>
 
-    <!--    After Order Activity    -->
+    <!--    Email Phone Input Activity  -->
+    <string name="tv_big_guide_email_phone_input">Please enter the information\nfor your business card!</string>
+    <string name="tv_small_guide_email_phone_input">You don\'t have to enter it if you don\'t want to.</string>
+    <string name="tv_email_email_phone_input">E-mail</string>
+    <string name="tv_phone_email_phone_input">Phone Number</string>
+    <string name="tv_next_email_phone_input">Next</string>
+
+    <!--    After Order Activity        -->
     <string name="tv_big_guide_after_order">We are making \nKim Gaon\'s \nname card.</string>
     <string name="tv_small_guide_after_order">Wait a minute please :)</string>
     <string name="btn_view_card_after_order">View my name card</string>
     <string name="btn_map_after_order">Place of receipt</string>
 
-    <!--    Name Rcmd Activity      -->
+    <!--    Name Rcmd Activity          -->
     <string name="tv_big_guide_name_rcmd">Recommended\nNames</string>
     <string name="tv_small_guide_name_rcmd">: They are pure Korean words.</string>
     <string name="btn_selected_name_rcmd">Selected</string>
@@ -30,7 +43,7 @@
     <string name="btn_yes_name_rcmd">Yes</string>
     <string name="btn_no_name_rcmd">No</string>
 
-    <!--    Recipient Info Activity -->
+    <!--    Recipient Input Activity    -->
     <string name="tv_big_guide_recipient_info">Recipient Info</string>
     <string name="tv_small_guide_recipient_info">: Please tell us\nyour name card recipient\'s information.</string>
     <string name="tv_name_recipient_info">Name</string>
@@ -38,7 +51,7 @@
     <string name="tv_4digits_recipient_info">(4digits)</string>
     <string name="tv_complete_recipient_info">Complete</string>
 
-    <!--    Pick Up Loc Activity    -->
+    <!--    Pick Up Loc Activity        -->
     <string name="tv_big_guide_pick_up_loc">Pick Up Location</string>
     <string name="tv_small_guide_pick_up_loc">: Please select\na pick up location.</string>
     <string name="tv_complete_pick_up_loc">Complete</string>

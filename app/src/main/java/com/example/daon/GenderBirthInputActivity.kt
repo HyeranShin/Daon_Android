@@ -6,14 +6,14 @@ import android.os.Bundle
 import android.text.Editable
 import android.text.TextWatcher
 import android.widget.TextView
-import kotlinx.android.synthetic.main.activity_info_enter.*
+import kotlinx.android.synthetic.main.activity_gender_birth_input.*
 import org.jetbrains.anko.startActivity
 
-class InfoEnterActivity : AppCompatActivity() {
+class GenderBirthInputActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_info_enter)
+        setContentView(R.layout.activity_gender_birth_input)
 
         setOnClickListener()
 

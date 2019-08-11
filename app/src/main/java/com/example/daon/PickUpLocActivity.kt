@@ -52,7 +52,7 @@ class PickUpLocActivity : AppCompatActivity() {
 
         tv_complete_pick_up_loc.setOnClickListener {
             SharedPreferenceController.setLocation(this, areaFlag)
-            startActivity<RecipientInfoActivity>()
+            startActivity<RecipientInputActivity>()
         }
     }
 
