@@ -21,7 +21,7 @@ class AfterOrderActivity : AppCompatActivity() {
 
     private fun setOnClickListener() {
         btn_map_after_order.setOnClickListener {
-            startActivity<PickUpLocActivity>()
+            startActivity<LocationInfoActivity>()
         }
     }
 }

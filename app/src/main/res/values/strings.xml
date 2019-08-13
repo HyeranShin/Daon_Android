@@ -72,4 +72,10 @@
     <string name="tv_area4_2_pick_up_loc">3층 출국장</string>
     <string name="tv_area4_3_pick_up_loc">3층 F 카운터 부근</string>
     <string name="tv_area4_4_pick_up_loc">다온 명함 수령센터</string>
+
+    <!--    Location Info Activity      -->
+    <string name="tv_guide_location_info">수령 장소 안내</string>
+    <string name="tv_recipient_location_info">수령인 : </string>
+    <string name="tv_help_call_location_info">전화해서 도움받기</string>
+    <string name="tv_hard_to_find_location_info">수령 장소를 찾기 힘든가요?</string>
 </resources>

@@ -71,4 +71,10 @@
     <string name="tv_area4_2_pick_up_loc">3rd floor Departure Hall</string>
     <string name="tv_area4_3_pick_up_loc">Near the 3rd floor F Counter</string>
     <string name="tv_area4_4_pick_up_loc">Daon Name Card Receiving Center</string>
+
+    <!--    Location Info Activity      -->
+    <string name="tv_guide_location_info">Pick Up Location Guide</string>
+    <string name="tv_recipient_location_info">Recipient : </string>
+    <string name="tv_help_call_location_info">Call for help</string>
+    <string name="tv_hard_to_find_location_info">Is it hard to find a pick up location?</string>
 </resources>
