@@ -1,4 +1,4 @@
-package com.example.daon
+package com.example.daon.ui
 
 import android.graphics.Color
 import androidx.appcompat.app.AppCompatActivity
@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.text.Editable
 import android.text.TextWatcher
 import android.widget.TextView
+import com.example.daon.R
 import kotlinx.android.synthetic.main.activity_gender_birth_input.*
 import org.jetbrains.anko.startActivity
 

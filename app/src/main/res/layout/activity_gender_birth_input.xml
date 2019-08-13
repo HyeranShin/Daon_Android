@@ -6,7 +6,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="#FFFFFF"
-        tools:context=".GenderBirthInputActivity">
+        tools:context=".ui.GenderBirthInputActivity">
 
     <TextView
             android:text="@string/tv_guide_info_enter"

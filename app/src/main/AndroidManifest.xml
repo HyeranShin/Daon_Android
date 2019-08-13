@@ -9,30 +9,48 @@
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
-        <activity android:name=".LocationInfoActivity">
+        <activity android:name=".ui.PaymentActivity">
         </activity>
-        <activity android:name=".EmailPhoneInputActivity">
+        <activity android:name=".ui.SelectDesignActivity">
         </activity>
-        <activity android:name=".NameInputActivity">
+        <activity android:name=".ui.MyCardActivity.MyCardVerActivity">
         </activity>
-        <activity android:name=".PickUpLocActivity">
+        <activity android:name=".ui.MyCardActivity.MyCardHorActivity">
         </activity>
-        <activity android:name=".RecipientInputActivity">
+        <activity android:name=".ui.PreviewActivity.PreviewVerActivity">
         </activity>
-        <activity android:name=".AfterOrderActivity">
+        <activity android:name=".ui.DesignActivity.DesignVerActivity">
         </activity>
-        <activity android:name=".SplashActivity">
+        <activity android:name=".ui.DesignActivity.DesignHorActivity">
+        </activity>
+        <activity android:name=".ui.PreviewActivity.PreviewHorActivity">
+        </activity>
+        <activity android:name=".ui.SelectLanguageActivity">
+        </activity>
+        <activity android:name=".ui.LocationInfoActivity">
+        </activity>
+        <activity android:name=".ui.EmailPhoneInputActivity">
+        </activity>
+        <activity android:name=".ui.NameInputActivity">
+        </activity>
+        <activity android:name=".ui.PickUpLocActivity">
+        </activity>
+        <activity android:name=".ui.RecipientInputActivity">
+        </activity>
+        <activity android:name=".ui.AfterOrderActivity">
+        </activity>
+        <activity android:name=".ui.SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".NameRcmdActivity">
+        <activity android:name=".ui.NameRcmdActivity">
         </activity>
-        <activity android:name=".GenderBirthInputActivity">
+        <activity android:name=".ui.GenderBirthInputActivity">
         </activity>
-        <activity android:name=".FirstStartActivity">
+        <activity android:name=".ui.FirstStartActivity">
         </activity>
     </application>
 

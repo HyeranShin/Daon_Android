@@ -1,9 +1,10 @@
-package com.example.daon
+package com.example.daon.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.speech.tts.TextToSpeech
 import android.view.View
+import com.example.daon.R
 import com.example.daon.controller.SharedPreferenceController
 import com.example.daon.model.NameVO
 import kotlinx.android.synthetic.main.activity_name_rcmd.*
@@ -45,13 +46,13 @@ class NameRcmdActivity : AppCompatActivity(), TextToSpeech.OnInitListener  {
 
         tv_ko_name_item_name_1.text = nameItems[0].name
         tv_en_name_item_name_1.text = nameItems[0].pronunciation
-        tv_meaning_item_name_1.text = nameItems[0].meaningKo
+        tv_meaning_item_name_1.text = nameItems[0].meaningEn
         tv_ko_name_item_name_2.text = nameItems[1].name
         tv_en_name_item_name_2.text = nameItems[1].pronunciation
-        tv_meaning_item_name_2.text = nameItems[1].meaningKo
+        tv_meaning_item_name_2.text = nameItems[1].meaningEn
         tv_ko_name_item_name_3.text = nameItems[2].name
         tv_en_name_item_name_3.text = nameItems[2].pronunciation
-        tv_meaning_item_name_3.text = nameItems[2].meaningKo
+        tv_meaning_item_name_3.text = nameItems[2].meaningEn
     }
 
     private fun setOnClickListener() {

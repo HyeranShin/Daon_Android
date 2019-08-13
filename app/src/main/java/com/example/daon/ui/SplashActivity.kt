@@ -1,8 +1,9 @@
-package com.example.daon
+package com.example.daon.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
+import com.example.daon.R
 import org.jetbrains.anko.startActivity
 
 class SplashActivity : AppCompatActivity() {
@@ -17,7 +18,7 @@ class SplashActivity : AppCompatActivity() {
     private fun moveToNextActivity() {
         val handler = Handler()
         handler.postDelayed({
-            startActivity<FirstStartActivity>()
+            startActivity<SelectLanguageActivity>()
             finish()
         }, 1000)
     }

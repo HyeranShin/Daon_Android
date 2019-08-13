@@ -1,9 +1,10 @@
-package com.example.daon
+package com.example.daon.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.text.Editable
 import android.text.TextWatcher
+import com.example.daon.R
 import com.example.daon.controller.SharedPreferenceController
 import kotlinx.android.synthetic.main.activity_name_input.*
 import org.jetbrains.anko.startActivity

@@ -1,7 +1,8 @@
-package com.example.daon
+package com.example.daon.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.daon.R
 import kotlinx.android.synthetic.main.activity_first_start.*
 import org.jetbrains.anko.startActivity
 

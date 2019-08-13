@@ -75,7 +75,7 @@
 
     <!--    Location Info Activity      -->
     <string name="tv_guide_location_info">수령 장소 안내</string>
-    <string name="tv_recipient_location_info">수령인 : </string>
+    <string name="tv_recipient_location_info">수령인 :</string>
     <string name="tv_help_call_location_info">전화해서 도움받기</string>
     <string name="tv_hard_to_find_location_info">수령 장소를 찾기 힘든가요?</string>
 </resources>
