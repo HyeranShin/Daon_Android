@@ -44,6 +44,10 @@
     <string name="btn_yes_name_rcmd">예</string>
     <string name="btn_no_name_rcmd">아니요</string>
 
+    <!--    Preview Activity            -->
+    <string name="tv_guide_preview">명함을 제작하시겠습니까?</string>
+    <string name="tv_yes_preview">예</string>
+
     <!--    Recipient Input Activity    -->
     <string name="tv_big_guide_recipient_info">수령인 정보</string>
     <string name="tv_small_guide_recipient_info">: 명함 수령인의\n정보를 알려주세요.</string>
@@ -78,4 +82,8 @@
     <string name="tv_recipient_location_info">수령인 :</string>
     <string name="tv_help_call_location_info">전화해서 도움받기</string>
     <string name="tv_hard_to_find_location_info">수령 장소를 찾기 힘든가요?</string>
+
+    <!--    My Card Activity            -->
+    <string name="tv_big_guide_my_card">내 명함</string>
+    <string name="tv_small_guide_my_card">열심히 제작하고 있어요 :)</string>
 </resources>

@@ -43,6 +43,10 @@
     <string name="btn_yes_name_rcmd">Yes</string>
     <string name="btn_no_name_rcmd">No</string>
 
+    <!--    Preview Activity            -->
+    <string name="tv_guide_preview">Would you like to make a name card?</string>
+    <string name="tv_yes_preview">Yes</string>
+
     <!--    Recipient Input Activity    -->
     <string name="tv_big_guide_recipient_info">Recipient Info</string>
     <string name="tv_small_guide_recipient_info">: Please tell us\nyour name card recipient\'s information.</string>
@@ -77,4 +81,9 @@
     <string name="tv_recipient_location_info">Recipient : </string>
     <string name="tv_help_call_location_info">Call for help</string>
     <string name="tv_hard_to_find_location_info">Is it hard to find a pick up location?</string>
+
+    <!--    My Card Activity            -->
+    <string name="tv_big_guide_my_card">My Name Card</string>
+    <string name="tv_small_guide_my_card">I\'m working hard :)</string>
+
 </resources>
