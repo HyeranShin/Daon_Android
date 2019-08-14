@@ -115,7 +115,7 @@ class NameRcmdActivity : AppCompatActivity(), TextToSpeech.OnInitListener  {
         }
         btn_yes_name_rcmdc.setOnClickListener {
             SharedPreferenceController.setName(this, tv_ko_name_item_name.text.toString())
-            startActivity<EmailPhoneInputActivity>()
+            startActivity<SelectDesignActivity>()
         }
         btn_no_name_rcmd.setOnClickListener {
             layout_check_selected_name_name_rcmd.visibility = View.INVISIBLE

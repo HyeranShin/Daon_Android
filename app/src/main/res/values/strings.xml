@@ -44,6 +44,32 @@
     <string name="btn_yes_name_rcmd">예</string>
     <string name="btn_no_name_rcmd">아니요</string>
 
+    <!--    Select Design Activity  -->
+    <string name="tv_big_guide_select_design">명함 선택</string>
+    <string name="tv_small_guide_select_design">: 한국을 대표하는 상징물을\n
+        일러스트로 표현했습니다.</string>
+    <string name="tv_preview_select_design">미리보기</string>
+    <string name="tv_selected_select_design">선택 완료</string>
+
+    <!--    Design Ver Activity     -->
+    <!--N타워-->
+    <string name="tv_ntower_select_design">N타워</string>
+    <string name="tv_ntower_is_select_design">N타워는</string>
+    <string name="tv_ntower_desc_select_design"></string>
+
+    <!--    Design Hor Activity      -->
+    <!--무궁화-->
+    <string name="tv_rose_of_sharon_select_design">무궁화</string>
+    <string name="tv_rose_of_sharon_is_select_design">무궁화는</string>
+    <string name="tv_rose_of_sharon_desc_select_design"></string>
+    <!--경복궁-->
+    <string name="tv_gung_select_design">경복궁</string>
+    <string name="tv_gung_is_select_design">경복궁은</string>
+    <string name="tv_gung_desc_select_design">조선시대의 궁궐 중 가장 중심이 되는 법궁입니다.\n
+        궁의 왼쪽에는 역대 왕들과 왕비의 신위를 모신\n
+        종묘가 있으며, 오른쪽에는 토지와 곡식의 신에게\n
+        제사를 지내는 사직단이 자리잡고 있습니다.</string>
+
     <!--    Preview Activity            -->
     <string name="tv_guide_preview">명함을 제작하시겠습니까?</string>
     <string name="tv_yes_preview">예</string>

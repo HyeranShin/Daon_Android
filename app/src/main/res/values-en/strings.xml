@@ -43,6 +43,32 @@
     <string name="btn_yes_name_rcmd">Yes</string>
     <string name="btn_no_name_rcmd">No</string>
 
+    <!--    Select Design Activity  -->
+    <string name="tv_big_guide_select_design">Card Selection</string>
+    <string name="tv_small_guide_select_design">: Symbol of Korea\n
+        Expressed by illustration.</string>
+    <string name="tv_preview_select_design">Preview</string>
+    <string name="tv_selected_select_design">Selected</string>
+
+    <!--    Design Ver Activity     -->
+    <!--N타워-->
+    <string name="tv_ntower_select_design">N타워</string>
+    <string name="tv_ntower_is_select_design">N타워는</string>
+    <string name="tv_ntower_desc_select_design"></string>
+
+    <!--    Design Hor Activity      -->
+    <!--무궁화-->
+    <string name="tv_rose_of_sharon_select_design">무궁화</string>
+    <string name="tv_rose_of_sharon_is_select_design">무궁화는</string>
+    <string name="tv_rose_of_sharon_desc_select_design"></string>
+    <!--경복궁-->
+    <string name="tv_gung_select_design">Gyeongbokgung</string>
+    <string name="tv_gung_is_select_design">Gyeongbokgung is</string>
+    <string name="tv_gung_desc_select_design">The palace is the center of the Joseon Dynasty.\n
+        On the left side of the palace is the seedling\n
+        which houses the kings and queens of the kings,\n
+        and on the right is the resignation of the gods of land and grain.</string>
+
     <!--    Preview Activity            -->
     <string name="tv_guide_preview">Would you like to make a name card?</string>
     <string name="tv_yes_preview">Yes</string>

@@ -4,6 +4,8 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.daon.R
 import com.example.daon.controller.SharedPreferenceController
+import com.example.daon.ui.MyCardActivity.MyCardHorActivity
+import com.example.daon.ui.MyCardActivity.MyCardVerActivity
 import kotlinx.android.synthetic.main.activity_after_order.*
 import org.jetbrains.anko.startActivity
 
@@ -20,6 +22,12 @@ class AfterOrderActivity : AppCompatActivity() {
     }
 
     private fun setOnClickListener() {
+        btn_view_card_after_order.setOnClickListener {
+            when(SharedPreferenceController.getDesign(applicationContext)) {
+                2 -> startActivity<MyCardVerActivity>()
+                else -> startActivity<MyCardHorActivity>()
+            }
+        }
         btn_map_after_order.setOnClickListener {
             startActivity<LocationInfoActivity>()
         }

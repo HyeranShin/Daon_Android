@@ -1,14 +1,13 @@
 package com.example.daon.controller
 
 import android.content.Context
-import android.content.LocusId
 import android.content.SharedPreferences
-import android.location.Location
 
 object SharedPreferenceController {
     private val NAME : String = "name"
     private val EMAIL : String = "email"
     private val PHONE : String = "phone"
+    private val DESIGN : String = "design"
     private val LOCATION : String = "pick up location"
     private val RECIPIENT_NAME : String = "recipient name"
     private val RECIPIENT_PHONE : String = "recipient phone"
@@ -62,8 +61,27 @@ object SharedPreferenceController {
     }
 
     /**
+     * Design
+     * Int
+     * 1~4
+     */
+    fun setDesign(ctx: Context, input: Int) {
+        val preferences : SharedPreferences = ctx.getSharedPreferences(DESIGN, Context.MODE_PRIVATE)
+        val editor : SharedPreferences.Editor = preferences.edit()
+        editor.putInt(DESIGN, input)
+        editor.commit()
+    }
+
+    fun getDesign(ctx : Context) : Int {
+        val preferences : SharedPreferences = ctx.getSharedPreferences(DESIGN, Context.MODE_PRIVATE)
+        return preferences.getInt(DESIGN, 0)
+    }
+
+
+    /**
      * Pick Up Location
      * Int
+     * 1~4
      */
     fun setLocation(ctx: Context, input: Int) {
         val preferences : SharedPreferences = ctx.getSharedPreferences(LOCATION, Context.MODE_PRIVATE)
