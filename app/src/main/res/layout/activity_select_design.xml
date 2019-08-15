@@ -47,17 +47,17 @@
                        android:background="@drawable/icon_check_x"
                        android:layout_margin="7dp"/>
             <TextView android:layout_width="70dp" android:layout_height="24dp"
-            android:background="@drawable/round_3_main_color"
-            android:text="@string/tv_preview_select_design"
-            android:includeFontPadding="false"
-            android:layout_marginBottom="12dp"
+                      android:background="@drawable/round_3_main_color"
+                      android:text="@string/tv_preview_select_design"
+                      android:includeFontPadding="false"
+                      android:layout_marginBottom="12dp"
                       android:fontFamily="@font/notosanscjkkr_regular"
                       android:textSize="15sp"
                       android:textColor="#FFFFFF"
                       android:gravity="center"
                       android:layout_alignParentBottom="true"
                       android:layout_alignParentRight="true"
-            android:layout_marginRight="15dp"/>
+                      android:layout_marginRight="15dp" android:id="@+id/tv_preview1_select_design"/>
 
         </RelativeLayout>
 
@@ -82,7 +82,7 @@
                       android:gravity="center"
                       android:layout_alignParentBottom="true"
                       android:layout_alignParentRight="true"
-                      android:layout_marginRight="15dp"/>
+                      android:layout_marginRight="15dp" android:id="@+id/tv_preview2_select_design"/>
 
         </RelativeLayout>
 
@@ -107,7 +107,7 @@
                       android:gravity="center"
                       android:layout_alignParentBottom="true"
                       android:layout_alignParentRight="true"
-                      android:layout_marginRight="15dp"/>
+                      android:layout_marginRight="15dp" android:id="@+id/tv_preview3_select_design"/>
 
         </RelativeLayout>
 
@@ -133,7 +133,7 @@
                       android:gravity="center"
                       android:layout_alignParentBottom="true"
                       android:layout_alignParentRight="true"
-                      android:layout_marginRight="15dp"/>
+                      android:layout_marginRight="15dp" android:id="@+id/tv_preview4_select_design"/>
 
         </RelativeLayout>
 

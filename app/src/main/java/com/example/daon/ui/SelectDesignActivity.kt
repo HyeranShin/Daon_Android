@@ -4,10 +4,10 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.core.content.ContextCompat
 import com.example.daon.R
-import com.example.daon.controller.SharedPreferenceController
+import com.example.daon.ui.DesignActivity.DesignHorActivity
+import com.example.daon.ui.DesignActivity.DesignVerActivity
 import com.example.daon.ui.PreviewActivity.PreviewHorActivity
 import com.example.daon.ui.PreviewActivity.PreviewVerActivity
-import kotlinx.android.synthetic.main.activity_pick_up_loc.*
 import kotlinx.android.synthetic.main.activity_select_design.*
 import org.jetbrains.anko.startActivity
 
@@ -62,12 +62,24 @@ class SelectDesignActivity : AppCompatActivity() {
             tv_selected_select_design.isClickable = true
             tv_selected_select_design.setBackgroundColor(resources.getColor(R.color.mainColor))
         }
-
+        tv_preview1_select_design.setOnClickListener {
+            startActivity<DesignHorActivity>("flag" to 1)
+        }
+        tv_preview2_select_design.setOnClickListener {
+            startActivity<DesignVerActivity>()
+        }
+        tv_preview3_select_design.setOnClickListener {
+            startActivity<DesignHorActivity>("flag" to 3)
+        }
+        tv_preview4_select_design.setOnClickListener {
+            startActivity<DesignHorActivity>("flag" to 4)
+        }
         tv_selected_select_design.setOnClickListener {
-            SharedPreferenceController.setDesign(this, designFlag)
             when(designFlag) {
-                2 -> startActivity<PreviewVerActivity>()
-                else -> startActivity<PreviewHorActivity>()
+                1 -> startActivity<PreviewHorActivity>("flag" to 1)
+                2 -> startActivity<PreviewVerActivity>("flag" to 2)
+                3 -> startActivity<PreviewHorActivity>("flag" to 3)
+                4 -> startActivity<PreviewHorActivity>("flag" to 4)
             }
         }
     }
