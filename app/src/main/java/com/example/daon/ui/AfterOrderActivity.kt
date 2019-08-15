@@ -29,7 +29,7 @@ class AfterOrderActivity : AppCompatActivity() {
             }
         }
         btn_map_after_order.setOnClickListener {
-            startActivity<LocationInfoActivity>()
+            startActivity<OrderHistoryActivity>()
         }
     }
 }

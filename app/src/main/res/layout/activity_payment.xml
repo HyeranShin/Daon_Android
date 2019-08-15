@@ -7,4 +7,9 @@
         android:layout_height="match_parent"
         tools:context=".ui.PaymentActivity">
 
+    <TextView
+            android:text="TextView"
+            android:layout_width="match_parent"
+            android:layout_height="71dp" android:id="@+id/tv_order_payment" android:background="@color/mainColor"
+            app:layout_constraintBottom_toBottomOf="parent"/>
 </androidx.constraintlayout.widget.ConstraintLayout>

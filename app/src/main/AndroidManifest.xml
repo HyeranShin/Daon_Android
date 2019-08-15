@@ -27,7 +27,7 @@
         </activity>
         <activity android:name=".ui.SelectLanguageActivity">
         </activity>
-        <activity android:name=".ui.LocationInfoActivity">
+        <activity android:name=".ui.OrderHistoryActivity">
         </activity>
         <activity android:name=".ui.EmailPhoneInputActivity">
         </activity>

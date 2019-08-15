@@ -20,7 +20,7 @@ class EmailPhoneInputActivity : AppCompatActivity() {
         tv_next_email_phone_input.setOnClickListener {
             SharedPreferenceController.setEmail(this, et_email_email_phone_input.text.toString())
             SharedPreferenceController.setPhone(this, et_phone_email_phone_input.text.toString())
-            startActivity<PickUpLocActivity>()
+            startActivity<SelectDesignActivity>()
         }
     }
 }

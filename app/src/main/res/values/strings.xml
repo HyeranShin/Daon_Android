@@ -32,7 +32,7 @@
     <string name="tv_big_guide_after_order">김가온님의 \n명함을 \n제작하고 있어요.</string>
     <string name="tv_small_guide_after_order">조금만 기다려 주세요 :)</string>
     <string name="btn_view_card_after_order">내 명함 보기</string>
-    <string name="btn_map_after_order">수령 장소 안내</string>
+    <string name="btn_map_after_order">주문 내역</string>
 
     <!--    Name Rcmd Activity          -->
     <string name="tv_big_guide_name_rcmd">이름 추천</string>
@@ -46,8 +46,8 @@
 
     <!--    Select Design Activity  -->
     <string name="tv_big_guide_select_design">명함 선택</string>
-    <string name="tv_small_guide_select_design">: 한국을 대표하는 상징물을\n
-        일러스트로 표현했습니다.</string>
+    <string name="tv_small_guide_select_design">: 한국을 대표하는 상징물을\n일러스트로 표현했습니다.
+    </string>
     <string name="tv_preview_select_design">미리보기</string>
     <string name="tv_selected_select_design">선택 완료</string>
 
@@ -59,16 +59,16 @@
 
     <!--    Design Hor Activity      -->
     <!--무궁화-->
-    <string name="tv_rose_of_sharon_select_design">무궁화</string>
-    <string name="tv_rose_of_sharon_is_select_design">무궁화는</string>
-    <string name="tv_rose_of_sharon_desc_select_design"></string>
+    <string name="tv_sharon_p_select_design">무궁화 1</string>
+    <string name="tv_sharon_g_select_design">무궁화 2</string>
+    <string name="tv_sharon_is_select_design">무궁화는</string>
+    <string name="tv_sharon_desc_select_design">대한민국을 상징하는 꽃입니다.\n어디서나 잘 자라고 매일 새로 꽃을 피우는\n생명력이 민족 수난기의 우리 민족과 닮았다 하여\n민중의 애국심을 상징하는 꽃이 되었습니다.</string>
     <!--경복궁-->
     <string name="tv_gung_select_design">경복궁</string>
     <string name="tv_gung_is_select_design">경복궁은</string>
-    <string name="tv_gung_desc_select_design">조선시대의 궁궐 중 가장 중심이 되는 법궁입니다.\n
-        궁의 왼쪽에는 역대 왕들과 왕비의 신위를 모신\n
-        종묘가 있으며, 오른쪽에는 토지와 곡식의 신에게\n
-        제사를 지내는 사직단이 자리잡고 있습니다.</string>
+    <string name="tv_gung_desc_select_design">조선시대의 궁궐 중 가장 중심이 되는 법궁입니다.\n궁의 왼쪽에는 역대 왕들과 왕비의 신위를 모신\n종묘가 있으며, 오른쪽에는 토지와
+        곡식의 신에게\n제사를 지내는 사직단이 자리잡고 있습니다.
+    </string>
 
     <!--    Preview Activity            -->
     <string name="tv_guide_preview">명함을 제작하시겠습니까?</string>

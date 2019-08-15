@@ -6,7 +6,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="#FFFFFF"
-        tools:context=".ui.LocationInfoActivity">
+        tools:context=".ui.OrderHistoryActivity">
 
     <TextView
             android:text="@string/tv_help_call_location_info"

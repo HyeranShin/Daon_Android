@@ -30,8 +30,8 @@
     <!--    After Order Activity        -->
     <string name="tv_big_guide_after_order">We are making \nKim Gaon\'s \nname card.</string>
     <string name="tv_small_guide_after_order">Wait a minute please :)</string>
-    <string name="btn_view_card_after_order">View my name card</string>
-    <string name="btn_map_after_order">Place of receipt</string>
+    <string name="btn_view_card_after_order">My Name Card</string>
+    <string name="btn_map_after_order">Order History</string>
 
     <!--    Name Rcmd Activity          -->
     <string name="tv_big_guide_name_rcmd">Recommended\nNames</string>
@@ -58,9 +58,11 @@
 
     <!--    Design Hor Activity      -->
     <!--무궁화-->
-    <string name="tv_rose_of_sharon_select_design">무궁화</string>
-    <string name="tv_rose_of_sharon_is_select_design">무궁화는</string>
-    <string name="tv_rose_of_sharon_desc_select_design"></string>
+    <string name="tv_sharon_p_select_design">무궁화 1</string>
+    <string name="tv_sharon_g_select_design">무궁화 2</string>
+    <string name="tv_sharon_is_select_design">무궁화는</string>
+    <string name="tv_sharon_desc_select_design">대한민국을 상징하는 꽃입니다.\n어디서나 잘 자라고 매일 새로 꽃을 피우는\n생명력이 민족 수난기의 우리 민족과 닮았다 하여\n민중의 애국심을 상징하는 꽃이 되었습니다.</string>
+
     <!--경복궁-->
     <string name="tv_gung_select_design">Gyeongbokgung</string>
     <string name="tv_gung_is_select_design">Gyeongbokgung is</string>

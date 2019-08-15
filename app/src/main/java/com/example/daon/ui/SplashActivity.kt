@@ -20,6 +20,6 @@ class SplashActivity : AppCompatActivity() {
         handler.postDelayed({
             startActivity<SelectLanguageActivity>()
             finish()
-        }, 1000)
+        }, 1500)
     }
 }

@@ -4,13 +4,13 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.daon.R
 import com.example.daon.controller.SharedPreferenceController
-import kotlinx.android.synthetic.main.activity_location_info.*
+import kotlinx.android.synthetic.main.activity_order_history.*
 
-class LocationInfoActivity : AppCompatActivity() {
+class OrderHistoryActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_location_info)
+        setContentView(R.layout.activity_order_history)
 
         tv_recipient_name_phone_location_info.text = ' ' + SharedPreferenceController.getName(applicationContext) + ' ' + SharedPreferenceController.getRecipientPhone(applicationContext)
         when(SharedPreferenceController.getLocation(applicationContext)) {

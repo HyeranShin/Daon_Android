@@ -4,4 +4,17 @@
     <color name="lightGray">#f5f5f5</color>
     <color name="darkGray">#9b9b9b</color>
     <color name="fontGray">#707070</color>
+
+    <color name="gung_dark">#3b7268</color>
+    <color name="gung_light">#eaf2f0</color>
+    <color name="gung_font">#3b8477</color>
+    <color name="ntower_dark">#422d51</color>
+    <color name="ntower_light">#F0E0E8</color>
+    <color name="ntower_font">#422d51</color>
+    <color name="salon_p_dark">#aa4678</color>
+    <color name="salon_p_light">#faf0fa</color>
+    <color name="salon_p_font">#bc609c</color>
+    <color name="salon_g_dark">#263e1d</color>
+    <color name="salon_g_light">#f6fbf9</color>
+    <color name="salon_g_font">#263e1d</color>
 </resources>

@@ -16,6 +16,9 @@ class SelectLanguageActivity : AppCompatActivity() {
     }
 
     private fun setOnClickListener() {
+        btn_korean_select_language.setOnClickListener {
+            startActivity<FirstStartActivity>()
+        }
         btn_english_select_language.setOnClickListener {
             startActivity<FirstStartActivity>()
         }
