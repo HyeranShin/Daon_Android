@@ -34,7 +34,7 @@
     <string name="btn_map_after_order">Order History</string>
 
     <!--    Name Rcmd Activity          -->
-    <string name="tv_big_guide_name_rcmd">Recommended\nNames</string>
+    <string name="tv_big_guide_name_rcmd">Recommended Names</string>
     <string name="tv_small_guide_name_rcmd">: They are pure Korean words.</string>
     <string name="btn_selected_name_rcmd">Selected</string>
     <string name="btn_rcmd_again_name_rcmd">Recommend Again</string>
@@ -66,13 +66,10 @@
     <!--경복궁-->
     <string name="tv_gung_select_design">Gyeongbokgung</string>
     <string name="tv_gung_is_select_design">Gyeongbokgung is</string>
-    <string name="tv_gung_desc_select_design">The palace is the center of the Joseon Dynasty.\n
-        On the left side of the palace is the seedling\n
-        which houses the kings and queens of the kings,\n
-        and on the right is the resignation of the gods of land and grain.</string>
+    <string name="tv_gung_desc_select_design">The palace is the center of the Joseon Dynasty.\nOn the left side of the palace is the seedling\nwhich houses the kings and queens of the kings,\nand on the right is the resignation of the gods of land\nand grain.</string>
 
     <!--    Preview Activity            -->
-    <string name="tv_guide_preview">Would you like to make a name card?</string>
+    <string name="tv_guide_preview">Would you like to\nmake a name card?</string>
     <string name="tv_yes_preview">Yes</string>
 
     <!--    Recipient Input Activity    -->
@@ -104,9 +101,12 @@
     <string name="tv_area4_3_pick_up_loc">Near the 3rd floor F Counter</string>
     <string name="tv_area4_4_pick_up_loc">Daon Name Card Receiving Center</string>
 
-    <!--    Location Info Activity      -->
-    <string name="tv_guide_location_info">Pick Up Location Guide</string>
-    <string name="tv_recipient_location_info">Recipient : </string>
+    <!--    Order History Activity      -->
+    <string name="tv_guide_location_info">Order History</string>
+    <string name="tv_name_order_history">수령인 이름</string>
+    <string name="tv_phone_order_history">핸드폰 뒷번호</string>
+    <string name="tv_date_order_history">수령 일시</string>
+    <string name="tv_price_order_history">가격</string>
     <string name="tv_help_call_location_info">Call for help</string>
     <string name="tv_hard_to_find_location_info">Is it hard to find a pick up location?</string>
 

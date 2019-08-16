@@ -12,7 +12,10 @@ class OrderHistoryActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_order_history)
 
-        tv_recipient_name_phone_location_info.text = ' ' + SharedPreferenceController.getName(applicationContext) + ' ' + SharedPreferenceController.getRecipientPhone(applicationContext)
+        tv_name_order_history.text = SharedPreferenceController.getRecipientName(this)
+        tv_phon_order_history.text = SharedPreferenceController.getRecipientPhone(this)
+        tv_date_order_history.text = SharedPreferenceController.getPickUpDate(this)
+
         when(SharedPreferenceController.getLocation(applicationContext)) {
             1 -> {
                 iv_area_location_info.setBackgroundResource(R.drawable.area_1_1)

@@ -42,17 +42,17 @@ class NameRcmdActivity : AppCompatActivity(), TextToSpeech.OnInitListener  {
     }
 
     private fun setNameCardData() {
-        var nameItems: ArrayList<NameVO> = NameVO.selectNameRandomly()
+        var nameItems: ArrayList<NameVO> = NameVO.nameList1()
 
         tv_ko_name_item_name_1.text = nameItems[0].name
         tv_en_name_item_name_1.text = nameItems[0].pronunciation
-        tv_meaning_item_name_1.text = nameItems[0].meaningEn
+        tv_meaning_item_name_1.text = nameItems[0].meaningKo
         tv_ko_name_item_name_2.text = nameItems[1].name
         tv_en_name_item_name_2.text = nameItems[1].pronunciation
-        tv_meaning_item_name_2.text = nameItems[1].meaningEn
+        tv_meaning_item_name_2.text = nameItems[1].meaningKo
         tv_ko_name_item_name_3.text = nameItems[2].name
         tv_en_name_item_name_3.text = nameItems[2].pronunciation
-        tv_meaning_item_name_3.text = nameItems[2].meaningEn
+        tv_meaning_item_name_3.text = nameItems[2].meaningKo
     }
 
     private fun setOnClickListener() {
@@ -105,7 +105,17 @@ class NameRcmdActivity : AppCompatActivity(), TextToSpeech.OnInitListener  {
             initNameSelect()
             btn_selected_name_rcmd.isClickable = false
             btn_selected_name_rcmd.setBackgroundColor(resources.getColor(R.color.darkGray))
-            setNameCardData()
+            var nameItems: ArrayList<NameVO> = NameVO.nameList2()
+
+            tv_ko_name_item_name_1.text = nameItems[0].name
+            tv_en_name_item_name_1.text = nameItems[0].pronunciation
+            tv_meaning_item_name_1.text = nameItems[0].meaningKo
+            tv_ko_name_item_name_2.text = nameItems[1].name
+            tv_en_name_item_name_2.text = nameItems[1].pronunciation
+            tv_meaning_item_name_2.text = nameItems[1].meaningKo
+            tv_ko_name_item_name_3.text = nameItems[2].name
+            tv_en_name_item_name_3.text = nameItems[2].pronunciation
+            tv_meaning_item_name_3.text = nameItems[2].meaningKo
         }
         btn_selected_name_rcmd.setOnClickListener {
             tv_ko_name_item_name.text = koName
@@ -115,6 +125,7 @@ class NameRcmdActivity : AppCompatActivity(), TextToSpeech.OnInitListener  {
         }
         btn_yes_name_rcmdc.setOnClickListener {
             SharedPreferenceController.setName(this, tv_ko_name_item_name.text.toString())
+            SharedPreferenceController.setEnName(this, tv_en_name_item_name.text.toString())
             startActivity<EmailPhoneInputActivity>()
         }
         btn_no_name_rcmd.setOnClickListener {

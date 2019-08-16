@@ -5,12 +5,14 @@ import android.content.SharedPreferences
 
 object SharedPreferenceController {
     private val NAME : String = "name"
+    private val EN_NAME : String = "en name"
     private val EMAIL : String = "email"
     private val PHONE : String = "phone"
     private val DESIGN : String = "design"
     private val LOCATION : String = "pick up location"
     private val RECIPIENT_NAME : String = "recipient name"
     private val RECIPIENT_PHONE : String = "recipient phone"
+    private val PICK_UP_DATE : String = "pick up date"
 
     /**
      * Name
@@ -27,6 +29,23 @@ object SharedPreferenceController {
         val preferences : SharedPreferences = ctx.getSharedPreferences(NAME, Context.MODE_PRIVATE)
         return preferences.getString(NAME, "")!!
     }
+
+    /**
+     * En Name
+     * String
+     */
+    fun setEnName(ctx: Context, input: String) {
+        val preferences : SharedPreferences = ctx.getSharedPreferences(EN_NAME, Context.MODE_PRIVATE)
+        val editor : SharedPreferences.Editor = preferences.edit()
+        editor.putString(EN_NAME, input)
+        editor.commit()
+    }
+
+    fun getEnName(ctx : Context) : String {
+        val preferences : SharedPreferences = ctx.getSharedPreferences(EN_NAME, Context.MODE_PRIVATE)
+        return preferences.getString(EN_NAME, "")!!
+    }
+
 
     /**
      * Email
@@ -125,5 +144,21 @@ object SharedPreferenceController {
     fun getRecipientPhone(ctx : Context) : String {
         val preferences : SharedPreferences = ctx.getSharedPreferences(RECIPIENT_PHONE, Context.MODE_PRIVATE)
         return preferences.getString(RECIPIENT_PHONE, "")!!
+    }
+
+    /**
+     * Pick Up Date
+     * String
+     */
+    fun setPickUpDate(ctx: Context, input: String) {
+        val preferences : SharedPreferences = ctx.getSharedPreferences(PICK_UP_DATE, Context.MODE_PRIVATE)
+        val editor : SharedPreferences.Editor = preferences.edit()
+        editor.putString(PICK_UP_DATE, input)
+        editor.commit()
+    }
+
+    fun getPickUpDate(ctx : Context) : String {
+        val preferences : SharedPreferences = ctx.getSharedPreferences(PICK_UP_DATE, Context.MODE_PRIVATE)
+        return preferences.getString(PICK_UP_DATE, "")!!
     }
 }

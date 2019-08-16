@@ -9,6 +9,29 @@ class NameVO constructor(name: String, pronunciation: String, meaningKor: String
     val meaningEn: String = meaningEng
 
     companion object {
+        fun nameList1(): ArrayList<NameVO> {
+            val totalNameList: ArrayList<NameVO> = insertNameListData()
+            val selectedNameList: ArrayList<NameVO> = ArrayList()
+
+            selectedNameList.add(totalNameList[30])
+            selectedNameList.add(totalNameList[10])
+            selectedNameList.add(totalNameList[32])
+
+            return selectedNameList
+        }
+
+        fun nameList2(): ArrayList<NameVO> {
+            val totalNameList: ArrayList<NameVO> = insertNameListData()
+            val selectedNameList: ArrayList<NameVO> = ArrayList()
+
+            selectedNameList.add(totalNameList[35])
+            selectedNameList.add(totalNameList[0])
+            selectedNameList.add(totalNameList[33])
+
+            return selectedNameList
+        }
+
+
         fun selectNameRandomly(): ArrayList<NameVO> {
             val totalNameList: ArrayList<NameVO> = insertNameListData()
             val selectedNameList: ArrayList<NameVO> = ArrayList()
@@ -32,31 +55,32 @@ class NameVO constructor(name: String, pronunciation: String, meaningKor: String
         private fun insertNameListData(): ArrayList<NameVO> {
             var nameList: ArrayList<NameVO> = ArrayList()
 
-            nameList.add(NameVO("가온", "Gaon", "세상의 중심이 되어라", "Be the center of the world"))
-            nameList.add(NameVO("나린", "Narin", "하늘이 내린", "The person with the sky"))
-            nameList.add(NameVO("나래", "Narae", "날개", "The wings"))
-            nameList.add(NameVO("나예", "Naye", "나비처럼 예쁘게", "Pretty as a butterfly"))
-            nameList.add(NameVO("너울", "Neoul", "바다의 큰 물결", "The big wave of the sea"))
+            nameList.add(NameVO("김가온", "Kim-ga on", "세상의 중심이 되어라", "Be the center of the world"))
+            nameList.add(NameVO("김나린", "Kim-na rin", "하늘이 내린", "The person with the sky"))
+            nameList.add(NameVO("김나래", "Kim-na rae", "날개", "The wings"))
+            nameList.add(NameVO("김나예", "Kim-na ye", "나비처럼 예쁘게", "Pretty as a butterfly"))
+            nameList.add(NameVO("김너울", "Neoul", "바다의 큰 물결", "The big wave of the sea"))
             nameList.add(
                 NameVO(
-                    "다솜",
+                    "김다솜",
                     "Dasom",
                     "애틋한 사람",
                     "The person who is dear, pitiful and affectionate"
                 )
             )
-            nameList.add(NameVO("다원", "Dawon", "모두가 다 사랑하는 사람", "The person everyone loves"))
+            nameList.add(NameVO("김다원", "Dawon", "모두가 다 사랑하는 사람", "The person everyone loves"))
             nameList.add(NameVO("다온", "Daon", "좋은 모든 일들이 다 오는", "All good things come"))
             nameList.add(NameVO("다올", "Daol", "하는 일마다 복이 옴", "Bless you everything you do"))
             nameList.add(NameVO("다옴", "Daom", "하는 일마다 복이 옴", "Bless you everything you do"))
-            nameList.add(NameVO("다한", "Dahan", "모든 일에 최선을 다하는", "Do your best in everything"))
+            nameList.add(NameVO("김다한", "Kim-da han", "모든 일에 최선을 다하는", "Do your best in everything"))
+            //----10
             nameList.add(NameVO("단미", "Danmi", "사랑스러운 여자", "Lovely woman"))
             nameList.add(NameVO("라온", "Raon", "즐거운", "Pleasant"))
             nameList.add(NameVO("마루", "Maru", "하늘", "The sky"))
-            nameList.add(NameVO("모아", "Mo-a", "늘 뜻을 모아 사는 삶", "Life that always gathers mind"))
+            nameList.add(NameVO("김모아", "Kim-mo a", "늘 뜻을 모아 사는 삶", "Life that always gathers mind"))
             nameList.add(NameVO("미르", "Mirue", "용", "Dragon"))
             nameList.add(NameVO("바오", "Bao", "보기좋게", "Looks good"))
-            nameList.add(NameVO("보미", "Bomi", "봄에 태어난 아기", "Baby born in the spring"))
+            nameList.add(NameVO("김보미", "Kim-bo mi", "봄에 태어난 아기", "Baby born in the spring"))
             nameList.add(NameVO("새라", "Saera", "새롭다", "It's new"))
             nameList.add(
                 NameVO(
@@ -67,6 +91,7 @@ class NameVO constructor(name: String, pronunciation: String, meaningKor: String
                 )
             )
             nameList.add(NameVO("새론", "Saeron", "늘 새로운 사람", "Always a new person"))
+            //----20
             nameList.add(NameVO("소미", "Somi", "솜과 같이 부드럽다", "Soft as cotton"))
             nameList.add(
                 NameVO(
@@ -88,7 +113,7 @@ class NameVO constructor(name: String, pronunciation: String, meaningKor: String
             )
             nameList.add(NameVO("윤슬", "Yunseul", "빛에 비치어 반짝이는 물결", "Shiny waves in the light"))
             nameList.add(NameVO("이든", "Ideun", "착한, 어진", "kind, benevolent"))
-            nameList.add(NameVO("초롱", "Chorong", "맑고 영롱하고 빛나다", "Clear and bright"))
+            nameList.add(NameVO("김초롱", "Kim-cho rong", "맑고 영롱하고 빛나다", "Clear and bright"))
             nameList.add(
                 NameVO(
                     "초아",
@@ -97,7 +122,8 @@ class NameVO constructor(name: String, pronunciation: String, meaningKor: String
                     "The person who burns herself like a candleholder"
                 )
             )
-            nameList.add(NameVO("하랑", "Harang", "함께 높이 날다", "Fly high together"))
+            nameList.add(NameVO("김하랑", "Kim-ha rang", "함께 높이 날다", "Fly high together"))
+            //----30
             nameList.add(
                 NameVO(
                     "하나",
@@ -108,20 +134,20 @@ class NameVO constructor(name: String, pronunciation: String, meaningKor: String
             )
             nameList.add(
                 NameVO(
-                    "한결",
-                    "Hangyeol",
+                    "김한결",
+                    "Kim-han gyeol",
                     "한결같은 지조를 지니는 사람",
                     "A person who keeps one's mind"
                 )
             )
-            nameList.add(NameVO("한별", "Hanbyeol", "크고 밝은 별", "Big and bright Star"))
+            nameList.add(NameVO("김한별", "Kim-hanbyeol", "크고 밝은 별", "Big and bright Star"))
             nameList.add(NameVO("한울", "Han-ul", "우주", "The Universe"))
             nameList.add(
                 NameVO(
-                    "해솔",
-                    "Haesol",
+                    "김해솔",
+                    "Kim-hae sol",
                     "해처럼 밝고 솔처럼 바르게",
-                    "Bright as the sun and right like a pine tree"
+                    "Bright as the sun\nand right like a pine tree"
                 )
             )
 

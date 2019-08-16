@@ -17,8 +17,8 @@ class AfterOrderActivity : AppCompatActivity() {
 
         setOnClickListener()
 
-//        tv_big_guide_after_order.text = "${SharedPreferenceController.getName(applicationContext)}님의 \n명함을 \n제작하고 있어요."
-        tv_big_guide_after_order.text = "We are making \n${SharedPreferenceController.getName(applicationContext)}\'s \nname card."
+        tv_big_guide_after_order.text = "${SharedPreferenceController.getName(applicationContext)}님의 \n명함을 \n제작하고 있어요."
+//        tv_big_guide_after_order.text = "We are making \n${SharedPreferenceController.getName(applicationContext)}\'s \nname card."
     }
 
     private fun setOnClickListener() {
